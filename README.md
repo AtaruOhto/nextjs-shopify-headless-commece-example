@@ -1,3 +1,8 @@
+# nextjs-shopify-headless-commece-example
+
+
+Server Side Rendering with Next.js.
+
 ## Getting Started
 
 ```
