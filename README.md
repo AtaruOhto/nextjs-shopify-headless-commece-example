@@ -10,6 +10,7 @@ Server Side Rendering with Next.js.
 ## Getting Started
 
 ```
+yarn codegen
 yarn dev
 open http://localhost:3000
 ```
