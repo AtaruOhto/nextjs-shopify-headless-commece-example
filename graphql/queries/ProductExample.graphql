@@ -1,0 +1,19 @@
+query ProductsExample($productCount: Int!) {
+  products(first: $productCount) {
+    edges {
+      node {
+        id
+        description
+        title
+        images(first: 1) {
+          edges {
+            node {
+              altText
+              originalSrc
+            }
+          }
+        }
+      }
+    }
+  }
+}
