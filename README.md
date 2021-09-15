@@ -4,6 +4,13 @@ Server Side Rendering with Next.js.
 
 ![screenshot](https://user-images.githubusercontent.com/3450879/133416771-711c2919-26d6-4b81-965a-6b6ba49abb0d.png)
 
+## Features
+
+* GraphQL Code Generator
+* Apollo Client
+* Next.js
+* Shopify Storefront API
+
 
 ## Getting Started
 
