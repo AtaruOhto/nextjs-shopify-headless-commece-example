@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import ProductExampleCSRComponent from "../components/ProductExampleCSR";
 
+// CSR Only
 export default function CSR() {
   return (
     <>
@@ -10,6 +11,7 @@ export default function CSR() {
       </Head>
 
       <main>
+        <h1>Hi the server didn't pass data to the client.</h1>
         <ProductExampleCSRComponent />
       </main>
     </>

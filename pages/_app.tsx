@@ -7,11 +7,19 @@ function MyApp({ Component, pageProps }) {
     <>
       <ul>
         <li>
-          <Link href="/">SSR</Link>
-        </li>
-        <li>
           <Link href="/csr">CSR</Link>
         </li>
+        <li>
+          <Link href="/ssr">SSR</Link>
+        </li>
+        <li>
+          <Link href="/ssg">SSG</Link>
+        </li>
+        <li>
+          {/* Disable ISR when the Link component is displayed in a screen. */}
+          <Link href="/isr" prefetch={false}>ISR</Link>
+        </li>
+
         <noscript>JavaScript is currently disabeld.</noscript>
       </ul>
       <Component {...pageProps} />

@@ -33,12 +33,10 @@ type State = {
   data?: ProductsExampleQuery
 }
 
-
 const ProductExampleCSRComponent = () => {
   const [state, setState] = useState<State>({ data: undefined })
 
   const { data, loading, refetch } = useProductsExampleQuery({
-
     variables: {
       productCount: 1
     },
